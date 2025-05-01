@@ -1,7 +1,7 @@
 import { createContext, useState, useContext, useEffect } from 'react';
 import axios from 'axios';
 
-const API_URL = process.env.API_URL;
+const API_URL = import.meta.env.API_URL;
 
 const AuthContext = createContext();
 
