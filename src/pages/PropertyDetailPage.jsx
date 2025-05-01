@@ -40,7 +40,7 @@ const PropertyDetailPage = () => {
     };
 
     fetchPropertyDetails();
-  }, [id, getPropertyById]);
+  }, [id]);
 
   const handlePrevImage = () => {
     setCurrentImageIndex((prevIndex) => 
